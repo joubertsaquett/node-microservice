@@ -2,11 +2,11 @@ service: express-serverless-app
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs12.x
   stage: v1
   region: us-east-1
   timeout: 30
-  memorySize: 512
+  memorySize: 256
   package:
     excludeDevDependencies: true
     exclude:
