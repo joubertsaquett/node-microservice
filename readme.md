@@ -4,7 +4,6 @@ This is an example of a micro service api.
 It can already be used on AWS as a service without a server (Lambda).
 
 ## Installation
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 ```bash
 sudo npm install -g serverless
 ```
