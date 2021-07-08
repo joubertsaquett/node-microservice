@@ -8,6 +8,13 @@ It can already be used on AWS as a service without a server (Lambda).
 sudo npm install -g serverless
 ```
 
+## Configuration AWS Credentials
+Check to see if there is a "Payment Methods" set up in your AWS account. 
+If you have just set up, wait a few minutes and try again.
+```bash
+serverless config credentials --provider aws --key <KEY> --secret <SECRET>
+```
+
 ## Usage Dev
 ```
 #Run command to start
